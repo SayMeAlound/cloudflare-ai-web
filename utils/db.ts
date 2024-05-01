@@ -53,12 +53,7 @@ export const initialSettings = {
 
 export type Settings = typeof initialSettings
 
-export const textGenModels: Model[] = [{
-    id: 'gemini-pro',
-    name: 'Gemini Pro',
-    provider: 'google',
-    type: 'chat'
-}, {
+export const textGenModels: Model[] = [ {
     id: 'gpt-3.5-turbo',
     name: 'ChatGPT-3.5-turbo',
     provider: 'openai',
